@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 
 var Drivers = {
   blinkm: require("./lib/blinkm"),
@@ -10,7 +10,8 @@ var Drivers = {
   lsm9ds0g: require("./lib/lsm9ds0g"),
   lsm9ds0xm: require("./lib/lsm9ds0xm"),
   "lidar-lite": require("./lib/lidar-lite"),
-  pca9685: require("./lib/pca9685")
+  pca9685: require("./lib/pca9685"),
+  dsscx18s: require("./lib/dsscx18s")
 };
 
 module.exports = {
